@@ -3,6 +3,6 @@ require "rails"
 
 module Casper
   module Rails
-    require "backbone-rails/engine"
+    require "casper-rails/engine"
   end
 end
