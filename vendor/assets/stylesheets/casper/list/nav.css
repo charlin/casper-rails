@@ -1,0 +1,13 @@
+ul.casper-nav {
+  list-style: none;
+}
+
+.casper-nav {
+  word-spacing: 1em;
+}
+
+.casper-nav a,
+.casper-nav li {
+  display: inline;
+  word-spacing: normal;
+}

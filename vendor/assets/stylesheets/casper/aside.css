@@ -1,0 +1,8 @@
+.casper-laside,
+.casper-raside {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.casper-laside { float: left;  }
+.casper-raside { float: right; }

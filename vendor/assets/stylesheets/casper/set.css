@@ -1,0 +1,190 @@
+body {
+  color: black;
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1em;
+  margin: 1em 3em;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* HTML5 Compat */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary { 
+  display: block; 
+}
+
+p, ul, ol, dl, menu, details {
+  padding: 0;
+  margin: 0 0 1em 0;
+  line-height: 1.33em;
+}
+
+li, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 0 0 .33em 0;
+  line-height: .99em;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+/* @group Links */
+
+a, a:active, a:visited { text-decoration: underline; }
+
+a         { color: blue;   }
+a:hover   { color: green; }
+a:active  { color: red;    }
+a:visited { color: purple; }
+
+
+
+/* @group Nav */
+
+nav   { word-spacing: 1em;    }
+nav a { word-spacing: normal; }
+
+/* @end */
+
+/* @group Lists */
+
+ul, ol {
+  list-style-position: inside;
+  padding-left: 1em;
+}
+
+ul ul, ul ol
+ol ul, ol ol {
+  margin: 0;
+}
+
+menu {
+  list-style: none;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  padding-left: 1em;
+}
+
+/* @end */
+
+/* @group Code */
+
+pre {
+  margin-bottom: 1em;
+  white-space: -webkit-pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+code {
+  background: whitesmoke;
+  border: 1px solid lightgrey;
+  font-family: Inconsolata, Monaco, Courier, monospace;
+  padding: .11em .33em .22em;
+  font-style: normal;
+}
+
+pre code {
+  display: block;
+  padding: .44em .66em .55em;
+  background: black;
+  color: white;
+  border: none;
+  line-height: 1.1em;
+}
+
+
+
+/* @end */
+
+/* @group Quotes */
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+blockquote {
+  /* TODO */
+}
+
+cite {
+  /* TODO */
+}
+
+q {
+  /* TODO */
+}
+
+/* @end */
+
+/* @group Figure */
+
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+figure {
+  float: left;
+  padding: 1em;
+  margin: 1em 1em 1em 0;
+}
+
+figcaption {
+  color: grey;
+  font-size: .875em;
+  font-style: italic;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+
+
+/* @end */
+
+/* @group Inline */
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+small { font-size: .875em; font-weight: normal; font-style: normal; }
+
+del { color: red;   text-decoration: line-through; }
+ins { color: green; text-decoration: none;         }
+
+em, i     { font-size: italic; }
+strong, b { font-weight: bold; }
+
+mark { background: yellow; }
+
+
+
+/* @end */

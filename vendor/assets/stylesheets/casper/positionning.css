@@ -1,0 +1,17 @@
+.casper-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.casper-center-box  { margin: 0 auto;     }
+.casper-center-text { text-align: center; }
+
+.casper-abs-tl, .casper-abs-tr,
+.casper-abs-bl, .casper-abs-br {
+  position: absolute;
+}
+
+.casper-abs-tl { top:    0; left:  0; }
+.casper-abs-tr { top:    0; right: 0; }
+.casper-abs-br { bottom: 0; right: 0; }
+.casper-abs-bl { bottom: 0; left:  0; }

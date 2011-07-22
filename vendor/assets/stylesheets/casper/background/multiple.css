@@ -1,0 +1,12 @@
+.casper-2bg, .casper-3bg {
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+}
+
+.casper-2bg       { background-position: left top; }
+.casper-2bg:hover { background-position: left bottom; }
+
+.casper-3bg        { background-position: left top;    }
+.casper-3bg:hover  { background-position: left center; }
+.casper-3bg:active { background-position: left bottom; }

@@ -1,0 +1,7 @@
+.casper-columns { overflow: hidden; }
+
+.casper-columns .casper-column {
+  position: relative;
+  float: left;
+  margin-bottom: 1em;
+}

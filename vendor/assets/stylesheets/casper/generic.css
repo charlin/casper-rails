@@ -1,0 +1,32 @@
+img.pulled, img.pushed {
+  padding: 0;
+  margin: 1em;
+}
+
+img.pulled {
+  float: left;
+  margin-left: 0;
+}
+
+img.pushed {
+  float: right;
+  margin-right: 0;
+}
+
+.hint, .meta, .copy {
+  font-size: .875em;
+}
+
+.hint {
+  color: gray;
+  font-weight: bold;
+}
+
+.meta {
+  color: silver;
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}

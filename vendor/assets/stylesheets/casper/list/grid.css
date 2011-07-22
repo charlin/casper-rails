@@ -1,0 +1,9 @@
+.casper-grid {
+  overflow: hidden;
+  list-style: none;
+}
+
+.casper-grid li {
+  float: left;
+  margin: 0 1em 1em 0;
+}

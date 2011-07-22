@@ -1,0 +1,79 @@
+.casper-960-fluid {
+  position: relative;
+  min-width: 960px;
+  max-width: 1280px;
+}
+
+/* @group Raw */
+
+.casper-960,
+.casper-800,
+.casper-640,
+.casper-480,
+.casper-320 { position: relative; }
+
+.casper-960 { width: 960px; }
+.casper-800 { width: 800px; }
+.casper-640 { width: 640px; }
+.casper-480 { width: 480px; }
+.casper-320 { width: 320px; }
+
+/* @end */
+
+/* @group With Padding */
+
+.casper-960p,
+.casper-800p,
+.casper-646p,
+.casper-480p,
+.casper-320p {
+  position: relative;
+  padding: 0 16px;
+}
+
+.casper-960p { width: 928px; }
+.casper-800p { width: 768px; }
+.casper-640p { width: 608px; }
+.casper-480p { width: 448px; }
+.casper-320p { width: 288px; }
+
+/* @end */
+
+/* @group With Margin */
+
+.casper-960m,
+.casper-800m,
+.casper-646m,
+.casper-480m,
+.casper-320m {
+  position: relative;
+  margin: 0 16px;
+}
+
+.casper-960m { width: 928px; }
+.casper-800m { width: 768px; }
+.casper-640m { width: 608px; }
+.casper-480m { width: 448px; }
+.casper-320m { width: 288px; }
+
+/* @end */
+
+/* @group With Both */
+
+.casper-960mp,
+.casper-800mp,
+.casper-640mp,
+.casper-480mp,
+.casper-320mp {
+  position: relative;
+  margin: 0 16px;
+  padding: 0 16px;
+}
+
+.casper-960mp { width: 896px; }
+.casper-800mp { width: 736px; }
+.casper-640mp { width: 576px; }
+.casper-480mp { width: 416px; }
+.casper-320mp { width: 256px; }
+
+/* @end */
